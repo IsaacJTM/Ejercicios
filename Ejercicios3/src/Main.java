@@ -3,10 +3,12 @@ import java.util.Scanner;
 public class Main {
 
     public static double AreaCirculo(int radio){
+
         return (double) Math.round(Math.PI*Math.pow(radio,2*100.0))/100.0;
     }
 
     public static double Temperatura(double tempe){
+
         return tempe*9/5 + 32;
     }
     public static double VolumenEsfera(double radioEsf){
