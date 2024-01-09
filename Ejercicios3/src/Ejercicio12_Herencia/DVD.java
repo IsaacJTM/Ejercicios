@@ -2,9 +2,9 @@ package Ejercicio12_Herencia;
 
 public class DVD extends LibraryItem{
     private String director;
-    private String duracion;
+    private short duracion;
 
-    public DVD(int id, String title, boolean disponible, String director,String duracion ) {
+    public DVD(int id, String title, boolean disponible, String director, short duracion ) {
         super(id, title, disponible);
         this.director = director;
         this.duracion = duracion;
@@ -18,11 +18,11 @@ public class DVD extends LibraryItem{
         this.director = director;
     }
 
-    public String getDuracion() {
+    public short getDuracion() {
         return duracion;
     }
 
-    public void setDuracion(String duracion) {
+    public void setDuracion(short duracion) {
         this.duracion = duracion;
     }
 }
