@@ -1,4 +1,4 @@
-package Ejercicio12_Herencia;
+package Ejercicio12H;
 
 import java.util.ArrayList;
 

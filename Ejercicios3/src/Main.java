@@ -1,5 +1,5 @@
-import Ejercicio12_Herencia.Book;
-import Ejercicio12_Herencia.DVD;
+import Ejercicio12H.Book;
+import Ejercicio12H.DVD;
 
 import java.util.Scanner;
 public class Main {

@@ -1,4 +1,4 @@
-package Ejercicio12_Herencia;
+package Ejercicio12H;
 
 public class Book extends LibraryItem {
     private String autor;
